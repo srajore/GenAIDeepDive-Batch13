@@ -4,3 +4,5 @@ myenv
 
 __pycache__/
 batch13/
+
+.ipynb_checkpoints/
