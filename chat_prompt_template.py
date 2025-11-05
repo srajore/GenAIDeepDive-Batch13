@@ -2,7 +2,10 @@ from langchain_ollama import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate
 
 
-prompt = ChatPromptTemplate.from_template("Tell me a key achivements of {person} in 4 bulleted points in {category}?")
+prompt = ChatPromptTemplate.from_messages([
+    ("system", "you are a helpful assistant."),
+    ("user", "Tell me a key achivements of {person} in 4 bulleted points in {category}?")
+])
 
 #from dotenv import load_dotenv
 
