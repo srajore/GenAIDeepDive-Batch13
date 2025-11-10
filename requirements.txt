@@ -12,3 +12,6 @@ langchain-huggingface
 
 streamlit
 
+langsmith
+
+langchain-aws
