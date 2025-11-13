@@ -15,3 +15,13 @@ streamlit
 langsmith
 
 langchain-aws
+
+langchain-community 
+
+pypdf
+
+langchain
+
+langchain_chroma
+
+langchain_community
